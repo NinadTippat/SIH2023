@@ -1,0 +1,32 @@
+.navbar{
+    /* border: 1px solid red; */
+    padding: 20px 40px 0px 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.nav-left{
+    width: 30%;
+}
+.nav-left>img{
+    width: 70%;
+}
+.nav-right{
+    display: flex;
+    width: 18%;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid red; */
+}
+.auth{
+    /* width: 100%; */
+    font-size: 1em;
+    padding: 8px 20px;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 30px;
+}
+.signup{
+    color: white;
+    background: #1a09b8;
+}
