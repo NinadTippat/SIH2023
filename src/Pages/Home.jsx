@@ -8,6 +8,7 @@ import lodging from '../Assets/lodging-grivance.png';
 import statusTracking from '../Assets/status-tracking.png';
 import { Link } from 'react-router-dom';
 import Navbar from '../Components/Navbar';
+import logo from '../Assets/logo.png'
 
 
 const Home = () => {
@@ -108,9 +109,31 @@ const Home = () => {
 
       <div className="realtime-analysis">
         <h1>Real Time Analytics</h1>
-        
+        <div className="analytics_boxs">
+          <div className="analytics-box">
+              <h1>1702</h1>
+              <p>Resolved</p>
+          </div>
+          <div className="analytics-box">
+              <h1>2082</h1>
+              <p>Visitors</p>
+          </div>
+          <div className="analytics-box">
+              <h1>217</h1>
+              <p>Pending</p>
+          </div>
+        </div>
       </div>
-      
+
+      <hr />      
+      <div className="footer">
+        <section>
+          <img src={logo} alt="" />
+        </section>
+        <section>
+          Copyright © All Rights Reserved
+        </section>
+      </div>
     </>
   );
 };
